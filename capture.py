@@ -30,9 +30,17 @@ while True:
         cv2.imshow("Video Preview", frame)
 
         # Save the frame as an image file
-        print("Saved current frame")
-        path = f"{folder}/frame.jpg"
+        path = f"{folder}/frame.png"
         cv2.imwrite(path, frame)
+        print("Saved current frame as frame.png")
+
+        # Verify the image is saved and is not corrupted
+        try:
+            with Image.open(path) as img:
+                img.verify()  # Verify the image is intact
+        except Exception as e:
+            print(f"Failed to verify the image: {e}")
+            continue
 
     else:
         print("Failed to capture image")
