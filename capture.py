@@ -12,7 +12,7 @@ frames_dir = os.path.join(os.getcwd(), folder)
 os.makedirs(frames_dir, exist_ok=True)
 
 # Initialize the video capture
-cap = cv2.VideoCapture("pexels-skyler-ewing-10449329 (Original).mp4")
+cap = cv2.VideoCapture("YOUR_VIDEO_PATH")
 
 # Wait for the camera to initialize and adjust light levels
 time.sleep(2)
