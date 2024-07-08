@@ -5,7 +5,7 @@ from IPython.display import display
 import PIL.Image
 import time
 
-os.environ['GOOGLE_API_KEY'] = "AIzaSyAjjEePyBGEcjCUsj5bfhGCl0BNBWF2j2Y"  # input your key here
+os.environ['GOOGLE_API_KEY'] = "YOUR_API_KEY"  # input your key here
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 vision_model = genai.GenerativeModel('gemini-pro-vision')
 
