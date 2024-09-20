@@ -40,6 +40,6 @@ Check out the demonstration of Gemini's image understanding capabilities:
 ## Google Colab Example
 
 Explore the other features of Gemini with this Google Colab notebook:
-- [Gemini.ipynb]
+- [Colab Notebook](https://colab.research.google.com/drive/1FI0NbsszdxAicAitExYijhkQ_N3jLp_t?usp=sharing)
 
 Make sure to add the necessary files and API key in the notebook.
